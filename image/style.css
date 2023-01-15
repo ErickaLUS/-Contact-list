@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: arial;
+}
+.image {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+.image img {
+  opacity: 0.8;
+  width: 100%;
+  cursor: pointer;
+}
+.image img:hover {
+  opacity: 1;
+}
+.images:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.resultat {
+  position: relative;
+  display: none;
+}
+#texteImage {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}

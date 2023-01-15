@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <div class="main-container">
+        <h1 class="titre">Répertoire de contact</h1>
+    </div>
+    <div class="content">
+        <div class="contactez-nous">
+            <div>
+                <h2>Formulaire de contact</h2>
+            </div>
+
+            <form>
+                <div>
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="entrez prénom" required />
+                </div>
+                <div>
+                    <label for="Nom">Nom</label>
+                    <input type="text" id="nom" name="nom" placeholder="entrez-nom" required />
+                </div>
+
+                <div>
+                    <label for="Groupe">Groupe</label>
+                    <select name="groupe" id="groupe" placeholder="entrez groupe" required>
+              <option value="" disabled selected hidden></option>
+              <option value="famille">Famille</option>
+              <option value="Amis">Amis</option>
+              <option value="collegue">collegue</option>
+              <option value="autre">Autre...</option>
+            </select>
+                </div>
+                <div>
+                    <label for="e-mail">e-mail</label>
+                    <input type="text" id="e-mail" name="e-mail" placeholder="entrez e-mail" required />
+                </div>
+                <div>
+                    <label for="contact">Contact</label>
+                    <input type="text" id="contact" name="contact" placeholder="entrez contact" required />
+                </div>
+
+                <div>
+                    <label for="bio">Bio</label>
+                    <input type="text" id="bio" name="bio" placeholder="bio" required />
+                </div>
+
+                <div class="drag-area">
+                    <header>Glisser-déposer pour télécharger un fichier</header>
+                    <!-- <span>OR</span>-->
+                    <button>Parcourir</button>
+                    <input type="file" hidden />
+                </div>
+
+                <p>
+                    <button type="submit" id="creer-btn">Créer</button>
+                    <button type="reset" id="reinit-btn">Réinit</button>
+                </p>
+            </form>
+        </div>
+
+        <div class="record-display">
+            <div>
+                <h2 class="titre2">Liste des contacts</h2>
+            </div>
+            <div class="">
+                <div class="collection-parent">
+
+                    <!--  <div class="contenu">
+
+                <img src="1.jpg" />
+                <div class="collection">
+                    <div>
+                        <span id="prénom-content">Prénom</span>
+                        <span id="name-content">Nom</span>
+                        <span id="groupe-content">groupe</span>
+                    </div>
+                    <div>
+                        <span id="contact-is-content">Téléphone</span>
+                        <span id="e-mail-content">e-mail</span>
+                    </div>
+                    <span id="bio-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos libero culpa aliquam blanditiis in dicta dolorem sapiente porro fuga perspiciatis sunt dolorum, totam incidunt pariatur necessitatibus officia veniam qui odit.</span>
+                </div>
+                <div class="collection-pre">
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-trash-can" id="cancel-btn"></i>
+                </div>
+            </div>
+        </div>
+         </div>-->
+                </div>
+            </div>
+            <script src="script.js"></script>
+</body>
+
+</html>
